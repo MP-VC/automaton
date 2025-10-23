@@ -1,10 +1,3 @@
-Project: automaton
-Aothors: David J. Barnes and Michael Kölling
+27.
+it goes back to one star. The same pattern emerges.
 
-This project is part of the material of the book
-
-   Objects First with Java - A Practical Introduction using BlueJ
-   Seventh edition
-   David J. Barnes and Michael Kölling
-
-It is discussed in chapter 7.
