@@ -25,7 +25,7 @@ public class AutomatonController
      */
     public AutomatonController()
     {
-        this(50);
+        this(51);
     }
     
     /**

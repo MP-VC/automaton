@@ -50,18 +50,18 @@ public class Automaton
         int[] nextState = new int[state.length];
         int left = 0;
         int center = state[0];
-        for (int i=0; i<state.length; i++){
-            int right = i + 1 < state.length ? state[i+1] : 0;
-            nextState[i]=calculateNextState(left,right,center);
+        for (int i=0; i<numberOfCells-1; i++){
+            int right = state[i+1];
+            nextState[i] = calculateNextState(left, center, right);
             left = center;
             center = right;
-        }
+        } 
         state = nextState;
     }
     
     private int calculateNextState(int left, int right,int center)
     {
-          return (left + right) % 2;
+          return (left + center + right) % 2;
     }
     
     /**
