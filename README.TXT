@@ -14,3 +14,6 @@ It does that since array gets overidden every loop.
 
 32.
 Old solution is better for beginners since it is easier to understand.
+
+35.
+there are technically infinite possibilities because you can just add and subtract a value indefinitly 
